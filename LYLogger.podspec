@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LYLogger'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of LYLogger.'
+  s.summary          = '用于做文件日志的LYLogger'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+给测试部测试的时候，无法看日志文件，只能写到沙盒内，如果有问题，再查看日志。这个组件封装了CocoaLumberjack，提供了简易的文件接口记录文件
                        DESC
 
   s.homepage         = 'https://github.com/sususu/LYLogger.git'
