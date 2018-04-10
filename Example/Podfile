@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LYLogger_Example' do
+  pod 'LYLogger', :path => '../'
+
+  target 'LYLogger_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
